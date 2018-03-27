@@ -1,0 +1,104 @@
+body{
+	background: #ddd;
+	margin: 30px 200px;
+}
+header h1{
+	background: grey;
+	padding: 10px;
+	height: 90px;
+	border-radius: 2px 30px;
+	border-top: 10px solid rgb(50, 50, 50);
+}
+header h1 img{
+	width: 250px;
+	height: 120px;
+	position: relative;
+}
+header nav{
+	background: grey;
+	height: 50px;
+	border-radius: 20px 2px;
+	border-bottom: 10px solid rgb(50, 50, 50);
+}
+header ul{
+	float: right;
+	margin-right: 18px;
+}
+header ul li{
+	display: inline;
+	float: left;
+	padding: 4px;
+	margin-right: 16px;
+	font-size: 18px;
+	color: white;
+}
+header ul li:hover{
+	color: gold;
+	padding: 6px;
+}
+main .container{
+	background: white;
+	padding: 10px;
+	padding-top: 26px;
+}
+main .container .singlet{
+	background-image: url(7.jpg);
+	background-repeat: no-repeat;
+	height: 240px;
+	width: 800px auto;
+	padding-left: 35px;
+	padding-top: 20px;
+	margin: auto;
+}
+main .container .singlet p{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 17px;
+}
+main .container .single{
+	width: 760px auto;
+	padding-left: 35px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin: auto;
+	border-bottom: 2px solid red;
+}
+main .container .single button{
+	float: right;
+	margin-right: 120px;
+}
+main .container .single button a{
+	text-decoration: none;
+}
+img{
+	width: 350px;
+	height: 150px;
+	float: left;
+	padding-right: 18px;
+	padding-bottom: 18px;
+	position: relative;
+}
+footer{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+footer .top h2{
+	width: 922px auto;
+	color: white;
+	padding: 10px;
+	padding-left: 20px;
+	background-color: rgb(43, 43, 43);
+	border-bottom: 4px solid rgb(212, 76, 50);
+	border-radius: 2px 20px;
+}
+footer .top{
+	background-color: rgb(52, 46, 80);
+}
+footer .top img{
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+footer .top .footerElt{
+	width: 300px auto;
+	height: auto;
+}
